@@ -1,0 +1,18 @@
+# Python venv
+venv/
+
+# Large model weights (download separately)
+models/
+
+# Vendored whisper.cpp (separate git repo; clone/build separately)
+whisper.cpp/
+
+# Runtime artifacts
+logs/
+voice.pid
+*.json.tmp
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
